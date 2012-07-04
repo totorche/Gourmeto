@@ -1,0 +1,17 @@
+tinyMCE.addI18n('fr.miki_video',{
+title:"Insérer ou éditer une vidéo",
+general_props:"Options générales",
+videos_list:"Liste des vidéos",
+integration:"Type d'intégration",
+integration_video:"Vidéo complète",
+integration_thumb:"Image miniature + lien",
+width:"Largeur",
+height:"Hauteur",
+target:"Cible",
+styles:"Styles CSS",
+class:"Classe CSS du lien",
+target_same:"Ouvrir dans cette fen\u00EAtre / dans ce cadre",
+target_parent:"Ouvrir dans la fen\u00EAtre / le cadre parent",
+target_top:"Ouvrir dans le cadre principal (remplace tous les cadres)",
+target_blank:"Ouvrir dans une nouvelle fen\u00EAtre",
+});

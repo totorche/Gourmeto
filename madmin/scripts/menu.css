@@ -1,0 +1,69 @@
+/* pour le problème de :hover de IE */     
+body {behavior: url(csshover.htc);} 
+
+/* on definit la taille de la div du menu ainsi que la taille de parties du menu */     
+div#menu2 {  
+  height: 39px;
+} 
+
+div#menu2 ul {       
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+} 
+
+/* On aligne les éléments horizontalement */ 
+div#menu2 ul li { 
+  float: left;
+} 
+ 
+/* On cache tous les sous menu avec la propriété display: none */ 
+div#menu2 ul ul { 
+  position: absolute;
+  display:none;
+  margin:0;
+  padding: 0;
+  background-color: #f7f7f7;
+  border: solid 1px #cccccc;
+  color: #000000;
+}
+
+/* propriété des menus principaux */
+#menu li a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1em 2em;
+}
+
+/* propriété des sous-menus */
+#menu li li a {
+  padding: 0.3em 2em;
+}
+
+#menu ul ul a {
+  color: #000000;
+}
+
+/* les sous-menus s'affichent verticalement */
+div#menu2 ul ul li{
+  float: none;
+  margin: 0;
+}
+
+/* Lors du survol avec la souris, les sousmenu apparaissent grace a display: block */ 
+div#menu2 ul.niveau1 li.sousmenu:hover ul.niveau2 { 
+  display: block;
+}
+
+/* fond different au survol de la souris */ 
+div#menu2 ul li:hover { 
+  background-image: url(../design/bg_bouton_menu_over.gif);
+  background-repeat: repeat-x;
+  background-position: top right;
+  color: #ffffff;
+} 
+
+#menu li li a:hover {
+  color: #ffffff;
+}

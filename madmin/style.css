@@ -1,0 +1,188 @@
+body{
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+  font-size: 12px;
+  margin: 0px;
+}
+
+h1{
+  border-bottom: solid 1px #cccccc;
+  font-size: 18px;
+  margin-top: 0;
+  padding-bottom: 5px;
+}
+
+h2{
+  color: #3b5998;
+  font-size: 13px;
+}
+
+a{
+  color: #3b5998;
+  text-decoration: none;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+input, textarea{
+  border: solid 1px #cccccc;
+}
+
+#top{
+  background-image: url(design/bg_top.gif);
+  background-repeat: repeat-x;
+  background-position: top right;
+  background-color: #3059b1;
+  height: 100px;
+  margin-bottom: 1px;
+}
+
+#menu{
+  background-color: #3b65be;
+  height: 39px;
+  color: #ffffff;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+#logout{
+  float: right;
+  margin: 6px 10px 0 0;
+}
+
+#send_result{
+  position: absolute;
+  top: 300px;
+  left: 100px;
+ /* background-color: #e4e4e4;*/
+  background-color: #ffffff;
+  display: none;
+  border: 1px solid #000000;
+  width: 450px;
+  z-index: 500;
+  text-align: center;
+  filter:alpha(opacity=90);
+  -moz-opacity:.90;
+  opacity:.90;
+}
+
+#send_result_text{
+  position: relative;
+  color: #000000;
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px auto 10px auto;
+}
+
+
+/*-------------------------------------------*/
+
+
+#arianne{
+  background-color: #e2e9f9;
+  padding: 0.5em 10px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+#first_contener{
+  border: solid 1px #cccccc;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+#main_table{
+  width: 100%;
+  border-collapse: collapse;
+  border: solid 1px #f0f0f0;
+}
+
+#main_table td{
+  padding-left: 5px;
+}
+
+#main_table_form{
+  /*width: 100%;*/
+  border-collapse: 10px;
+  /*border: solid 1px #f0f0f0;*/
+}
+
+.headers{
+  background-color: #3b65be;
+  height: 39px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  width: 100%;
+}
+
+/* couleur no 1 pour l'affichage d'une table */
+.line1{
+  background-color: #f0f0f0;
+  padding: 5px;
+}
+
+/* couleur no 2 pour l'affichage d'une table */
+.line2{
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+/* couleur d'une ligne d'une table lors du survol de la souris */
+.mouseOver{
+  background-color: #f9ea99;
+}
+
+.errormsg{
+  color: #000000;
+  background-color: #e58e8e;
+  border: solid 1px #e55f5f;
+  padding: 0.5em 0 0.5em 10px;
+  margin: 0 0 10px 10px;
+}
+
+.successmsg{
+  color: #000000;
+  background-color: #d6e4c5;
+  border: solid 1px #bdd3a3;
+  padding: 0.5em 0 0.5em 10px;
+  margin: 0 0 10px 10px;
+}
+
+.form_text{
+  text-align: right;
+  vertical-align: top;
+  padding-right: 10px;
+}
+
+.form_box{
+  text-align: left;
+}
+
+ul{
+  padding: 0;
+}
+
+ul.sortable, ul.sortable li{
+  list-style: none;
+  margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	cursor: pointer;
+}
+
+.advice{
+  font-size: 0.9em;
+  color: #3b5998;
+}

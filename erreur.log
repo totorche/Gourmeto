@@ -1,0 +1,198 @@
+Date: 19-12-2011 16:10:39
+Type d'erreur: EXCEPTION
+Message d'erreur: La section demandée n'existe pas
+Fichier: D:\web\picshare\web\class\miki_template_part.php(85)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 19-12-2011 16:10:45
+Type d'erreur: EXCEPTION
+Message d'erreur: La section demandée n'existe pas
+Fichier: D:\web\picshare\web\class\miki_template_part.php(85)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 19-12-2011 16:10:46
+Type d'erreur: EXCEPTION
+Message d'erreur: La section demandée n'existe pas
+Fichier: D:\web\picshare\web\class\miki_template_part.php(85)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 19-12-2011 16:11:00
+Type d'erreur: EXCEPTION
+Message d'erreur: La section demandée n'existe pas
+Fichier: D:\web\picshare\web\class\miki_template_part.php(85)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 12-01-2012 21:18:40
+Type d'erreur: EXCEPTION
+Message d'erreur: Aucune page ne correspond au nom donné
+Fichier: D:\web\picshare\web\class\miki_page.php(342)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 19-04-2012 15:46:09
+Type d'erreur: EXCEPTION
+Message d'erreur: La catégorie demandée n'existe pas
+Fichier: D:\web\picshare\web\class\miki_shop_article_category.php(86)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 25-04-2012 17:24:22
+Type d'erreur: EXCEPTION
+Message d'erreur: Erreur lors de la modification du transporteur : Duplicate entry '9-1' for key 'PRIMARY'
+Fichier: D:\web\picshare\web\class\miki_shop_transporter.php(265)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 25-04-2012 17:33:24
+Type d'erreur: EXCEPTION
+Message d'erreur: Erreur pendant la suppression des configuration : <br />You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id_shop_transporter = 9' at line 1
+Fichier: D:\web\picshare\web\class\miki_shop_shipping_configuration.php(219)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 01-05-2012 00:11:55
+Type d'erreur: EXCEPTION
+Message d'erreur: La quantité demandée pour cet article est supérieure au stock disponible
+Fichier: D:\web\picshare\web\class\miki_order.php(952)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 01-05-2012 00:12:17
+Type d'erreur: EXCEPTION
+Message d'erreur: La quantité demandée pour cet article est supérieure au stock disponible
+Fichier: D:\web\picshare\web\class\miki_order.php(952)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 03-05-2012 10:55:13
+Type d'erreur: EXCEPTION
+Message d'erreur: La personne demandée n'existe pas
+Fichier: D:\web\picshare\web\class\miki_person.php(263)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 03-05-2012 10:55:18
+Type d'erreur: EXCEPTION
+Message d'erreur: La personne demandée n'existe pas
+Fichier: D:\web\picshare\web\class\miki_person.php(263)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 03-05-2012 10:55:47
+Type d'erreur: EXCEPTION
+Message d'erreur: La personne demandée n'existe pas
+Fichier: D:\web\picshare\web\class\miki_person.php(263)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 03-05-2012 10:56:00
+Type d'erreur: EXCEPTION
+Message d'erreur: La personne demandée n'existe pas
+Fichier: D:\web\picshare\web\class\miki_person.php(263)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 03-05-2012 10:58:04
+Type d'erreur: EXCEPTION
+Message d'erreur: La personne demandée n'existe pas
+Fichier: D:\web\picshare\web\class\miki_person.php(263)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 03-05-2012 10:58:40
+Type d'erreur: EXCEPTION
+Message d'erreur: Aucune personne n'est associée à la commande
+Fichier: D:\web\picshare\web\class\miki_order.php(586)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 03-05-2012 11:39:25
+Type d'erreur: EXCEPTION
+Message d'erreur: Aucune personne n'est associée à la commande
+Fichier: D:\web\picshare\web\class\miki_order.php(586)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 03-05-2012 23:07:43
+Type d'erreur: EXCEPTION
+Message d'erreur: Aucune page ne correspond au nom donné
+Fichier: D:\web\picshare\web\class\miki_page.php(342)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 03-05-2012 23:07:44
+Type d'erreur: EXCEPTION
+Message d'erreur: Aucune page ne correspond au nom donné
+Fichier: D:\web\picshare\web\class\miki_page.php(342)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 04-05-2012 00:50:26
+Type d'erreur: EXCEPTION
+Message d'erreur: Aucune page ne correspond au nom donné
+Fichier: D:\web\picshare\web\class\miki_page.php(342)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 04-05-2012 00:50:29
+Type d'erreur: EXCEPTION
+Message d'erreur: Aucune page ne correspond au nom donné
+Fichier: D:\web\picshare\web\class\miki_page.php(342)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+
+Date: 04-05-2012 00:50:30
+Type d'erreur: EXCEPTION
+Message d'erreur: Aucune page ne correspond au nom donné
+Fichier: D:\web\picshare\web\class\miki_page.php(342)
+Host: 
+Client: 
+Client IP: 
+Request URI: 
+

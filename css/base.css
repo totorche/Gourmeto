@@ -1,0 +1,178 @@
+/* css reset from Eric Meyer */
+
+@font-face {
+    font-family: 'FreestyleScriptRegular';
+    src: url('fonts/FREESCPT.eot');
+    src: url('fonts/FREESCPT.eot?#iefix') format('embedded-opentype'),
+         /*url('fonts/FREESCPT.woff') format('woff'),*/
+         url('fonts/FREESCPT.TTF') format('truetype'),
+         url('fonts/freescpt.svg#') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+  margin: 0;  
+  padding: 0;  
+  border: 0;  
+  font-size: 100%;  
+  font: inherit;  
+  vertical-align: baseline;  
+}
+/* HTML5 display-role reset for older browsers */  
+article, aside, details, figcaption, figure,  
+footer, header, hgroup, menu, nav, section {  
+  display: block;  
+} 
+body {  
+  font-size: 0.85em;
+  line-height: 130%;
+  background: url(pictures/background.png);
+}
+ol, ul {  
+  list-style: none;  
+}  
+blockquote, q {  
+  quotes: none;  
+}  
+blockquote:before, blockquote:after,  
+q:before, q:after {  
+  content: '';  
+  content: none;  
+}  
+table {  
+  border-collapse: collapse;  
+  border-spacing: 0;  
+}  
+strong{
+  font-weight: bold;
+}
+
+
+
+
+html {
+  font-size: 100%;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+p{
+  margin: 0.75em 0;
+}
+
+
+/* Pour les "..." lors d'un overflow */
+.ellipsis{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -moz-binding: url(css/ellipsis_mozilla.xml#ellipsis)
+}
+
+label.error{
+  display: block;
+  color: #FFFFFF;
+  /*margin: 3px;*/
+  margin: 3px 0 0 0; 
+  padding: 3px; 
+  background: #ffa2a2;
+  -moz-border-radius: 3px; 
+  -webkit-border-radius: 3px; 
+  border-radius: 3px; 
+}
+
+/* Pour les tests des formulaires */
+/* This style is applied to input fields after successful validation */
+.validation-passed{ 
+  border: ;
+}
+
+/* This style is applied to the error messages */
+.validation-advice{ 
+  color: red; 
+  margin: 3px; 
+  padding: 3px; 
+} 
+
+/* This style is applied to input fields after validation failed */
+.validation-failed{
+  border: 2px dashed #ff0000; 
+}
+
+
+/* Pour les box d'informations */
+.box_result_error{
+  width: 100%;
+  margin: 20px 0;
+  background-color: #ef7171;
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px; 
+  border-radius: 5px;
+}
+
+.box_result_error p{
+  padding: 7px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.box_result_success{
+  width: 100%;
+  margin: 20px 0;
+  background-color: #8ad760;
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px; 
+  border-radius: 5px;
+}
+
+.box_result_success p{
+  padding: 7px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 5px;
+  margin-right: 0px;
+}
+
+.box_result_info{
+  width: 100%;
+  background-color: #4380ef;
+  margin-bottom: 20px;
+}
+
+.box_result_info p{
+  padding: 7px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 5px;
+  margin-right: 0px;
+}
+
+.breadcrumb{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid #b0afaf 1px;
+}
+
+.breadcrumb_link{}
+
+.breadcrumb_last{
+  color: #00b6ef;
+}
+
+
+
+/* Contenu du template */
+

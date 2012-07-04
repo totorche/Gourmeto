@@ -1,0 +1,231 @@
+SetEnv PHP_VER 5
+
+# désactive les register_globals
+SetEnv REGISTER_GLOBALS 0
+
+Options -Indexes
+
+Options +FollowSymlinks
+RewriteEngine On
+
+RewriteBase /url_site_web
+
+# active la compression
+AddOutputFilterByType DEFLATE text/html text/xml application/xhtml+xml text/plain application/javascript text/css
+
+# Pour avoir l'url canonique sans le 'www'
+RewriteCond %{HTTP_HOST} ^www\.(.*)\.(.*)
+RewriteRule ^(.*) http://%1.%2/$1 [R=301,L]
+
+# décommenter lors d'une mise à jour
+#RewriteCond %{REQUEST_URI} !^.*maintenance\.html [NC]
+#RewriteCond %{REQUEST_URI} !^.*\.gif [NC]
+#RewriteCond %{HTTP_HOST} (.*)
+#RewriteRule ^(.*)$ http://%1/maintenance.html [R=302,L]
+
+# mise en cache des images pendant 1 année
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 1 seconds"
+  ExpiresByType image/gif "access plus 1 years"
+  ExpiresByType image/jpeg "access plus 1 years"
+  ExpiresByType image/jpg "access plus 1 years"
+  ExpiresByType image/png "access plus 1 years"
+  ExpiresByType image/x-icon "access plus 1 years"
+  ExpiresByType text/css "access plus 1 years"
+  ExpiresByType text/javascript "access plus 1 years"
+  ExpiresByType application/x-javascript "access plus 1 years"
+  ExpiresByType application/x-shockwave-flash "access plus 1 years"
+</IfModule>
+
+DirectoryIndex index.php?pn=accueil
+
+
+
+# Pour la page 404
+ErrorDocument  404  /erreur-404
+
+
+
+# Pour la console d'administration
+RewriteCond %{HTTP_HOST} ^(madmin)\.(.*)\.(.*)
+RewriteRule ^(.*) http://%2.%3/%1/$1 [R=301,L]
+
+
+
+# start news url rewriting
+
+RewriteCond %{REQUEST_URI} ^.*actualite/.* [NC,OR]
+RewriteCond %{REQUEST_URI} ^.*news/.* [NC,OR]
+RewriteCond %{REQUEST_URI} ^.*aktuelle/.* [NC]
+RewriteRule ^.*-([0-9]+)$ index.php?pn=actualite_details&nid=$1 [QSA,L]
+
+# stop news url rewriting
+
+
+
+# start articles url rewriting
+
+RewriteCond %{REQUEST_URI} ^.*article/.* [NC]
+RewriteRule ^.*-([0-9]+)$ index.php?pn=shop_article_details&aid=$1 [QSA,L]
+
+# stop articles url rewriting
+
+
+
+# start events url rewriting
+
+RewriteCond %{REQUEST_URI} ^.*events/.* [NC]
+RewriteRule ^.*-([0-9]+)$ index.php?pn=event_details&eid=$1 [QSA,L]
+
+# stop events url rewriting
+
+
+
+# start photos albums url rewriting
+
+RewriteCond %{REQUEST_URI} ^.*photos/.* [NC]
+RewriteRule ^.*-([0-9]+)$ index.php?pn=photos&aid=$1 [QSA,L]
+
+# stop photos albums url rewriting
+
+
+
+# start objects url rewriting
+
+RewriteCond %{REQUEST_URI} ^.*objects/.* [NC]
+RewriteRule ^.*-([0-9]+)$ index.php?pn=object_details&eid=$1 [QSA,L]
+
+# stop objects url rewriting
+
+
+
+# start places url rewriting
+
+RewriteCond %{REQUEST_URI} ^.*places/.* [NC]
+RewriteRule ^.*-([0-9]+)$ index.php?pn=place_details&eid=$1 [QSA,L]
+
+# stop objects url rewriting
+
+
+
+# start statistiques newsletter url rewriting
+
+RewriteRule ^stats_newsletter-([0-9]+)-([0-9]+)\.gif$ scripts/stats_newsletter.php?nid=$1&pid=$2 [QSA,L]
+
+# stop statistiques newsletter articles url rewriting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# start url rewriting
+
+RewriteRule ^erreur-404$ index.php?pn=404&l=fr [QSA,L]
+RewriteRule ^news$ index.php?pn=actualites&l=fr [QSA,L]
+RewriteRule ^erreur-404$ index.php?pn=erreur-404&l=fr [QSA,L]
+RewriteRule ^panier$ index.php?pn=shop_panier&l=fr [QSA,L]
+RewriteRule ^authentification$ index.php?pn=login&l=fr [QSA,L]
+RewriteRule ^livraison-paiement$ index.php?pn=shop_livraison_paiement&l=fr [QSA,L]
+RewriteRule ^paiement$ index.php?pn=shop_paiement&l=fr [QSA,L]
+RewriteRule ^controle-commande$ index.php?pn=shop_controle&l=fr [QSA,L]
+# stop url rewriting
+
+
+
+# start multi-language rewriting
+
+# Récupère la langue donnée en sous-domaine (fr.monsite.com)
+#RewriteCond %{QUERY_STRING} !^$
+RewriteCond %{REQUEST_URI} !^.*/madmin/.* [NC]
+RewriteCond %{HTTP_HOST} !^www\.(.*)  [NC]
+RewriteCond %{HTTP_HOST} !^webmail\.(.*)  [NC]
+RewriteCond %{HTTP_HOST} ^(.*)\.(.*)\.(.*) 
+RewriteRule ^(.*)$ $1?%{QUERY_STRING}&l=%1  [L]
+
+# stop multi-language rewriting

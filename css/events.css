@@ -1,0 +1,182 @@
+/* CSS Document */
+
+/* Pour la liste des bonnes adresses */
+
+.event_picture{
+  position: relative;
+}
+
+.event_picture img{
+  background: #FFFFFF;
+  padding: 5px;
+  border: 1px solid #979797;
+}
+
+.event_picture img:hover{
+  background: #AC53B8;
+}
+
+.event_text{
+  padding-top: 10px;
+  text-align: left;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+section.middle h2.event_title{
+  color: #848484;
+}
+
+h3.event_category{
+  margin: 10px 0;
+}
+
+.event_date{
+  padding: 0.5em 0;
+  margin-bottom: 20px;
+}
+
+.event_date img{
+  /*float: left;*/
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.event_title{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.event_details{
+  text-align: right;
+  margin-top: 10px;
+}
+
+ul.main_table{
+  margin: 0 0 40px 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+ul.main_table li{
+  float: left;
+  width: 218px;
+  margin: 0 10px 10px 0;
+  overflow: hidden;
+  list-style-type: none;
+  background: none;
+  padding: 10px;
+  border: solid 1px #CDCDCD;
+  height: auto;
+  
+  background-image: linear-gradient(bottom, rgb(255,255,255) 24%, rgb(245,245,245) 62%);
+  background-image: -o-linear-gradient(bottom, rgb(255,255,255) 24%, rgb(245,245,245) 62%);
+  background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 24%, rgb(245,245,245) 62%);
+  background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 24%, rgb(245,245,245) 62%);
+  background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 24%, rgb(245,245,245) 62%);
+  
+  background-image: -webkit-gradient(
+  	linear,
+  	left bottom,
+  	left top,
+  	color-stop(0.24, rgb(255,255,255)),
+  	color-stop(0.62, rgb(245,245,245))
+  );
+}
+
+ul.list_display li{
+  float: none;
+  width: 872px;
+  height: auto;
+}
+
+ul.list_display .event_picture{
+  float: left;
+  margin-right: 20px;
+}
+
+ul.list_display .event_text{
+  float: left;
+  width: 690px;
+  height: auto;
+  padding-top: 0;
+}
+
+ul.list-view-options{
+  list-style-type: none;
+  margin: 0 0 20px 0;
+}
+
+ul.list-view-options li{
+  float: left;
+  width: auto;
+  background: none;
+  padding: 0;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+ul.list-view-options li span{
+  float: right;
+  width: 18px;
+  height: 18px;
+  background: url(../pictures/grille-liste.png) no-repeat;
+  margin-left: 5px;
+}
+
+
+/* Pour le détail d'un événement */
+
+.event{
+  overflow: hidden;
+}
+
+.event .event_pictures_container{
+  float: left;
+  margin-right: 20px;
+}
+
+.event .event_pictures{
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.event .event_text,
+.event .event_description,
+.event .event_participants, 
+.event .event_files, 
+.event .event_subscription{
+  width: auto;
+  height: auto;
+  padding-top: 0;
+  margin-bottom: 20px;
+}
+
+.event .event_description p{
+  white-space: pre-wrap;
+}
+
+.event .event_map{
+  clear: left;
+  margin-top: 20px;
+  width: 100%;
+  height: 400px;
+}
+
+.event .event_participants li{
+  margin-top: 10px;
+}
+
+.event .event_files li{
+  margin-top: 10px;
+}
+
+.event .event_subscription table{
+  margin: 20px 0;
+}
+
+#tabs{
+  float: left;
+}

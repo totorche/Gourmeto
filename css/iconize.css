@@ -1,0 +1,178 @@
+/* Iconize 0.5 */
+
+/* websites (pictures and movies) */
+a.icon[href *="youtube.com/watch?"], a.icon[href *="sevenload.com/videos/"], a.icon[href *="metacafe.com/watch/"] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_film.gif) no-repeat center right;
+}
+
+a.icon[href *="flickr.com/photos/"], a.icon[href *="zooomr.com"], a.icon[href *="imageshack.us"], a.icon[href *="bubbleshare.com"], a.icon[href *="sevenload.com/bilder/"] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_pic.gif) no-repeat center right;
+}
+
+/* extensions */
+
+a.icon[href$='.doc'], a.icon[href$='.docx'], a.icon[href$='.rtf'] {
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_doc.gif) no-repeat center right;
+}
+
+a.icon[href$='.txt'] {
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_txt.gif) no-repeat center right;
+}
+
+a.icon[href$='.xls'], a.icon[href$='.xlsx'] {
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_xls.gif) no-repeat center right;
+}
+
+a.icon[href$='.rss'], a.icon[href$='.atom'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_feed.gif) no-repeat center right;
+}
+
+a.icon[href$='.opml'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_opml.gif) no-repeat center right;
+}
+
+a.icon[href$='.phps'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_phps.gif) no-repeat center right;
+}
+
+a.icon[href$='.phps'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_phps.gif) no-repeat center right;
+}
+
+a.icon[href$='.torrent'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_torrent.gif) no-repeat center right;
+}
+
+a.icon[href$='.vcard'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_vcard.gif) no-repeat center right;
+}
+
+a.icon[href$='.exe'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_exe.gif) no-repeat center right;
+}
+
+a.icon[href$='.dmg'], a.icon[href$='.app'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_dmg.gif) no-repeat center right;
+}
+
+a.icon[href$='.pps'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_pps.gif) no-repeat center right;
+}
+
+a.icon[href$='.pdf'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_pdf.gif) no-repeat center right;
+}
+
+a.icon[href$='.xpi'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_plugin.gif) no-repeat center right;
+}
+
+a.icon[href$='.fla'], a.icon[href$='.swf'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_flash.gif) no-repeat center right;
+}
+
+a.icon[href$='.zip'], a.icon[href$='.rar'], a.icon[href$='.gzip'], a.icon[href$='.bzip'], a.icon[href$='.ace'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_archive.gif) no-repeat center right;
+}
+
+a.icon[href$='.ical'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_ical.gif) no-repeat center right;
+}
+
+a.icon[href$='.css'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_css.gif) no-repeat center right;
+}
+
+a.icon[href$='.ttf'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_ttf.gif) no-repeat center right;
+}
+
+a.icon[href$='.jpg'], a.icon[href$='.gif'], a.icon[href$='.png'], a.icon[href$='.bmp'], a.icon[href$='.jpeg'], a.icon[href$='.svg'], a.icon[href$='.eps'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_pic.gif) no-repeat center right;
+}
+
+a.icon[href$='.mov'], a.icon[href$='.wmv'], a.icon[href$='.mp4'], a.icon[href$='.avi'], a.icon[href$='.mpg'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_film.gif) no-repeat center right;
+}
+
+a.icon[href$='.mp3'], a.icon[href$='.wav'], a.icon[href$='.ogg'], a.icon[href$='.wma'], a.icon[href$='.m4a'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_music.gif) no-repeat center right;
+}
+
+/* messenger */
+a.icon[href ^="aim:"] {
+	padding: 5px 20px 5px 0;
+    background: transparent url(icons/icon_aim.gif) no-repeat center right;
+}
+
+a.icon[href ^="msnim:"] {
+	padding: 5px 20px 5px 0;
+    background: transparent url(icons/icon_msn.gif) no-repeat center right;
+}
+
+a.icon[href ^="xmpp:"] {
+	padding: 5px 20px 5px 0;
+    background: transparent url(icons/icon_jabber.gif) no-repeat center right;
+}
+
+a.icon[href *="icq.com"] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_icq.gif) no-repeat center right;
+}
+
+a.icon[href *="edit.yahoo.com/config/send_webmesg?"] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(icons/icon_yim.gif) no-repeat center right;
+}
+
+a.icon[href ^="callto:"] {
+	padding: 5px 20px 5px 0;
+    background: transparent url(icons/icon_call.gif) no-repeat center right;
+}
+
+a.icon[href ^="skype:"] {
+	padding: 5px 20px 5px 0;
+    background: transparent url(icons/icon_skype.gif) no-repeat center right;
+}
+
+a.icon[href ^="gg:"] {
+	padding: 5px 20px 5px 0;
+    background: transparent url(icons/icon_gadugadu.gif) no-repeat center right;
+}
+
+/* email */
+a.icon[href ^="mailto:"] {
+	padding: 5px 20px 5px 0;
+    background: transparent url(icons/icon_mailto.gif) no-repeat center right;
+}
+
+/* use this class to make sure that images won't get iconized */
+
+.imageLink {
+	padding-right: 0px !important;
+	background: none !important;
+}

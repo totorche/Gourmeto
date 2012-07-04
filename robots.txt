@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /madmin/
+Disallow: /class/
+Disallow: /config/
+
+# Sitemap
+Sitemap: http://localhost/picshare/sitemap.xml

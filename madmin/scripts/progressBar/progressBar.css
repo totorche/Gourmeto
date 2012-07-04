@@ -1,0 +1,5 @@
+/* these selector names are based on what you provide to the class */
+	
+/* example 1 */
+#box			{ border:1px solid #ccc; width:200px; height:20px; margin:0pt auto; }
+#perc			{ background:#ccc; height:20px; }

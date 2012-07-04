@@ -1,0 +1,277 @@
+/* CSS Document */
+
+/* Pour la liste des articles */
+
+.articles_list_picture{
+  position: relative;
+}
+
+.articles_list_picture img{
+  background: #FFFFFF;
+  padding: 5px;
+  border: 1px solid #979797;
+}
+
+.articles_list_picture img:hover{
+  background: #AC53B8;
+}
+
+.articles_list_text{
+  padding-top: 10px;
+  text-align: left;
+  width: 100%;
+  /*height: 100px;*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+section.middle h2.articles_list_title{
+  color: #848484;
+}
+
+h3.articles_list_category{
+  margin: 10px 0;
+}
+
+.articles_list_title{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.articles_list_details{
+  text-align: right;
+  margin-top: 10px;
+}
+
+ul.main_table{
+  margin: 0 0 40px 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+ul.main_table li{
+  float: left;
+  width: 218px;
+  margin: 0 10px 10px 0;
+  overflow: hidden;
+  list-style-type: none;
+  background: none;
+  padding: 10px;
+  border: solid 1px #CDCDCD;
+  height: auto;
+  
+  background-image: linear-gradient(bottom, rgb(255,255,255) 24%, rgb(245,245,245) 62%);
+  background-image: -o-linear-gradient(bottom, rgb(255,255,255) 24%, rgb(245,245,245) 62%);
+  background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 24%, rgb(245,245,245) 62%);
+  background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 24%, rgb(245,245,245) 62%);
+  background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 24%, rgb(245,245,245) 62%);
+  
+  background-image: -webkit-gradient(
+  	linear,
+  	left bottom,
+  	left top,
+  	color-stop(0.24, rgb(255,255,255)),
+  	color-stop(0.62, rgb(245,245,245))
+  );
+}
+
+ul.list_display li{
+  float: none;
+  width: 872px;
+  height: auto;
+}
+
+ul.list_display .articles_list_picture{
+  float: left;
+  margin-right: 20px;
+}
+
+ul.list_display .articles_list_text{
+  float: left;
+  width: 690px;
+  height: auto;
+  padding-top: 0;
+}
+
+ul.list-view-options{
+  list-style-type: none;
+  margin: 0 0 20px 0;
+}
+
+ul.list-view-options li{
+  float: left;
+  width: auto;
+  background: none;
+  padding: 0;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+ul.list-view-options li span{
+  float: right;
+  width: 18px;
+  height: 18px;
+  background: url(../pictures/grille-liste.png) no-repeat;
+  margin-left: 5px;
+}
+
+
+/* Pour le détail d'un article */
+
+.article td{
+  vertical-align: top;
+}
+
+.article_pictures{
+  width: 366px;
+  padding-bottom: 30px; 
+}
+
+.article_details{
+  float: left;
+  padding: 0 40px 15px 0;
+}
+
+.article_description{
+  padding: 80px 10px 100px 0;
+  width: 450px;
+}
+
+.article_options{
+  float: left;
+}
+
+.article_big_picture{
+  position: relative;
+  background: url(../pictures/fond-image-article.jpg) left center;
+  padding: 0 18px;
+}
+
+.article_big_picture li{
+  position: absolute;
+  top: 0px;
+  left: 23px;
+  display: none;
+}
+
+.article_big_picture li:first-child{
+  display: block;
+}
+
+.article_thumbnails{
+  overflow: hidden;
+  margin-top: 20px;
+  padding: 0 18px;
+}
+
+.article_thumbnails li{
+  float: left;
+  margin-right: 5px;
+}
+
+.article_stock{
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 80px 10px 100px 0;
+  width: 100px;
+  text-align: center;
+}
+
+.article_bottom{
+  vertical-align: bottom;
+}
+
+.article_price{
+  font-size: 1.5em;
+  color: #646464;
+  margin: 0;
+  background: #d9dadb;
+  padding: 10px 15px;
+  -moz-border-radius: 3px; 
+  -webkit-border-radius: 3px; 
+  border-radius: 3px;
+}
+
+.article_price .prefix{
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.article_price .old_price{
+  text-decoration: line-through;
+}
+
+.article_price .promo{
+  font-weight: bold;
+  color: #FF0000;
+}
+
+.article_taxes{
+  font-size: 0.7em;
+  /*margin: 10px 20px;*/
+  margin: 10px 0;
+  padding-left: 5px;
+  /*border-left: 1px solid #848484;*/
+  text-align: right;
+}
+
+.article_old_price{
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 0 0 10px 0;
+  text-align: right;
+}
+
+.article_unavailable{
+  font-size: 1.5em;
+  color: #FF0000;
+  margin: 0;
+  padding: 10px 15px;
+}
+
+.article_ref{
+  margin: 0;
+}
+
+.article_description p{
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+.article_attribute{
+  border-bottom: solid 1px #848484;
+  padding: 15px 0 15px 20px;
+}
+
+.article_attribute label{
+  display: block;
+}
+
+.article_attribute select{
+  min-width: 70px;
+}
+
+.article_quantity{
+  text-align: center;
+}
+
+.article_quantity label{
+  /*display: block;*/
+}
+
+.article_quantity select{
+  min-width: 70px;
+}
+
+.buttons{
+  margin-top: 10px;
+}
+
+.addthis a{
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.addthis a:first-child{
+  margin-left: 20px;
+}
